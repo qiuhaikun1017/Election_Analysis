@@ -9,7 +9,7 @@ Before we started our analysis, we will first give a brief introduction about th
 ## Election-Audit Results
 By using our model, we created the following election result graph. According to the below graph, we have some of the key points for this election results. 
 
-![screenshot](Election Result.png)
+![election result](Election Result.png)
 
 - The total number of election votes is 369,711
 
@@ -20,3 +20,11 @@ By using our model, we created the following election result graph. According to
 - Three candidates were running for this election: Charles Casper Stockham, Diana Degette and Raymon Anthony Doane. Charles Casper Stockham has received 85213 votes and this number is 23% of the total votes. Diana Degette received 272892 votes and it is 73.8% of the total votes. Raymon Anthony Doane has received 11606 votes and it’s 3.1% of the total vote numbers
 
 - Diana Degette won the election as she received 73.8% of the total votes and received 272892 votes.
+
+### Application of this model 
+This model provide an easy access to automate the analysis process for a large data set of election data. It can be used to count the total number of the election result data set and each candidate’s and county’s votes number and its own percentage of the total number. Once the analysis process is completed, it can print and save the result summary in a text form so that the outcome of the result can be easily read by the audiences. 
+
+### limitation of the model 
+- It will provide better interpretations if we can add a summary result for the top three candidates vote and percentage. The reason for such proposal is that in the current data sheet, only three candidates were running for the election so it is pointless to summarize the top 3. However for larger scare of election data, for example for presidential election, there will be numerous candidates running for the election in each region and we want to know who is the top 3 candidates and their percentage of total votes. We may use the same logic and write a decision statement like we do for the winning candidate in the current script to modify the script.
+
+- A pie graph will be visually more straightforward than a text form when we presenting data for its percentage of total number to the audience. We may use a plot function to create charts and add it into the text form we save

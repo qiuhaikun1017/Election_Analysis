@@ -9,7 +9,7 @@ Before we started our analysis, we will first give a brief introduction about th
 ## Election-Audit Results
 By using our model, we created the following election result graph. According to the below graph, we have some of the key points for this election results. 
 
-![election result](Election Result.png)
+![img](Election Result.png)
 
 - The total number of election votes is 369,711
 
